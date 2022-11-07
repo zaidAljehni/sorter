@@ -1,0 +1,23 @@
+{
+  "name": "sorter",
+  "version": "1.0.0",
+  "description": "Simple TypeScript project to sort a collection (array of numbers, a string or a linked list)",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaidAljehni/sorter.git"
+  },
+  "author": "zaidAljehni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaidAljehni/sorter/issues"
+  },
+  "homepage": "https://github.com/zaidAljehni/sorter#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
